@@ -26,7 +26,7 @@ function App() {
 		};
 	}, []);
 
-	return (<div id="chat-root"/>);
+	return <div id="chat-root" />;
 }
 
 export default App;
