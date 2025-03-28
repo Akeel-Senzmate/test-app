@@ -26,17 +26,7 @@ function App() {
 		};
 	}, []);
 
-	return (
-		<div
-			id="chat-root"
-			style={{
-				position: 'absolute',
-				top: '98%',
-				left: '100%',
-				transform: 'translate(-50%, -50%)',
-			}}
-		/>
-	);
+	return (<div id="chat-root"/>);
 }
 
 export default App;
